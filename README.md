@@ -32,3 +32,31 @@ financial-agentic-rag-router/
 ├── .env.example                     # Environment variable template
 ├── requirements.txt                 # Infrastructure dependencies
 └── README.md                        # System documentation
+
+
+## 🚀 Quick Start
+
+### Prerequisites
+* Python 3.9+
+* Groq API Key
+
+### Installation & Execution
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/rajatsony/financial-agentic-rag-router.git
+   cd financial-agentic-rag-router
+```
+
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Environment Setup:**
+   * Rename `.env.example` to `.env`.
+   * Add your API key inside `.env`: `GROQ_API_KEY=your_key_here`
+
+4. **Run the Agent:**
+   ```bash
+   python rag_pipeline.py
+   ```
